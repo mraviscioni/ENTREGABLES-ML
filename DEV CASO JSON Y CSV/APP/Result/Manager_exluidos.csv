@@ -1,0 +1,14 @@
+DB_NAME,EMAIL_OWNER,EMAIL_MANAGER,CLASIFICATION,ERROR
+BBDD 3,marcelo@hotmail.com,jefe1@hotmail.com,high,NO MATCH
+BBDD 3,marcelo@hotmail.com,jefe3@gmal.com,high,NO MATCH
+BBDD 3,marcelo@hotmail.com,jefe4@com,high,INVALID EMAIL
+BBDD 3,marcelo@hotmail.com,jefe6@ml.com,high,NO MATCH
+BBDD 4,xxx@hotmail.com,jefe1@hotmail.com,high,NO MATCH
+BBDD 4,xxx@hotmail.com,jefe2@yahoo.com,high,NO MATCH
+BBDD 4,xxx@hotmail.com,jefe3@gmal.com,high,NO MATCH
+BBDD 4,xxx@hotmail.com,jefe5dsds@ml.com,high,NO MATCH
+BBDD 4,xxx@hotmail.com,jefe6@ml.com,high,NO MATCH
+BBDD 7,marcelo@hotmail.com,jefe1@hotmail.com,high,NO MATCH
+BBDD 7,marcelo@hotmail.com,jefe3@gmal.com,high,NO MATCH
+BBDD 7,marcelo@hotmail.com,jefe4@com,high,INVALID EMAIL
+BBDD 7,marcelo@hotmail.com,jefe6@ml.com,high,NO MATCH

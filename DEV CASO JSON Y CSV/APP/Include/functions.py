@@ -75,7 +75,7 @@ def ProcesarAutorizacion(JSONPATH, CSVPATH):
 
 			else:
 				#Evaluo cual fue el error, si es porque el mail no tiene una estructura valida o bien no machea el registro con lo que busco.
-				print(regUsr["user_manager"])
+				
 				if CheckValidMail(regUsr["user_manager"]) : 
 					strERROR = "NO MATCH" 
 				else:

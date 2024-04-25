@@ -17,15 +17,14 @@ print("-|| LISTADO DE REGISTROS ERRONEOS ||-")
 print(result["ERRORES"])
 print("")
 
-print("Desea Exportar los resultados? \n - Digite 1 para exportar \n - Digite 0 para omitir la exportacion")
-boolExport = input()
+#print("Desea Exportar los resultados? \n - Digite 1 para exportar \n - Digite 0 para omitir la exportacion")
+boolExport = 1
 
 if int(boolExport) == 1:
 	result["MANAGER"].to_csv(strPATHRESULT + "Manager_notification.csv", index=False)
 	result["EXCLUIDOS"].to_csv(strPATHRESULT + "Manager_exluidos.csv", index=False)
 	result["ERRORES"].to_csv(strPATHRESULT + "Error_data.csv", index=False)
 	
-	clear()
 	print("Se generaron los siguientes archivos:")
 
 	for export in os.listdir(strPATHRESULT):
