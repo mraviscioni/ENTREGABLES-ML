@@ -1,0 +1,7 @@
+row_id,user_id,user_state,user_manager
+1,x@hotmail.com,,jefe1@ml.com
+2,marcelo@hotmail.com,0,jefe2@ml.com
+3,dd@hotmail.com,1,jefe3@ml.com
+4,xxx@hotmail.com,2,jefe4@ml.com
+5,marcelo@hotmail.com,3,jefe5@ml.com
+6,sss@hotmail.com,4,jefe6@ml.com
